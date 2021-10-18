@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <TITLE>Example fo cookie pop-up</TITLE>
+    <style>
+      .header-card {
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 15%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+      }
+      .accpBtt {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 5px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.accpBtt:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+    </style>
+    <script type="text/javascript">
+      function accptCookie() {
+        document.getElementById("footCoockie").style.display = "none" ;
+      }
+    </script>
+  </HEAD>
+  <BODY BGCOLOR="FFFFFF">
+    <HR>
+    <a href="https://www.google.com">Go to Google</a> is a link to a different site.
+    <H1>This is a Header</H1>
+    <H2>This is a Medium Header</H2>
+
+    This is how you send an email <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>.
+
+<P> This is a new paragraph! </P>
+
+<P> <B>This is a new paragraph!</B> </P>
+
+<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
+<div id='footCoockie' class="header-card">
+        <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:#115cfa;" href="/privacy-policy">Politicas de Privacidad</a><br /><br />
+        <a href="#" class="accpBtt" onclick="accptCookie();">Aceptar</a></p>
+</div>
+
+<HR>
+
+</BODY>
+
+</HTML>
